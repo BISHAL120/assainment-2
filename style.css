@@ -1,0 +1,120 @@
+/* font family */
+font-family: 'Luxurious Roman', cursive;
+font-family: 'Poppins', sans-serif;
+/* headre style */
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #AAAAAA;;
+}
+
+.heading{
+    font-weight: 700;
+    font-size: 24px;
+    color: #3A3A3A;
+}
+
+.first-part{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.about-1{
+    color: #3A3A3A;
+    font-size: 20px;
+    width: 40%;
+}
+.image img{
+
+}
+.button-1{
+    padding: 10px;
+    border-radius: 25px;
+    background-color: #E02C6D;
+    border: none;
+}
+.button-2{
+    padding: 10px;
+    background-color: #E02C6D;
+    width: 155px;
+    height: 44px;
+}
+
+
+/* products part */
+
+.heading-2{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 800;
+}
+.container{
+    margin-bottom: 20px;
+}
+.products{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    grid-row-gap: 50px;
+    margin-bottom: 20px;
+    
+
+}
+
+.product{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 40px;
+    border-radius: 8px;
+    padding: 5px;
+    background-color:  #FFFFFF;;
+
+}
+.fa-star{
+    color: #FB8200;
+}
+.more{
+    color: #E02C6D;
+    text-align: right;
+}
+.lasts-1{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+/* footer section here */
+
+footer{
+    background-color: #0A0826;
+    width: 100%;
+    height: 240px;
+    
+
+}
+.last-part{
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 20px;
+
+}
+.fab{
+    text-align: center;
+}
+
+
+
+
+/* ---------------------------------------------@mwdia quari---------------------------------- */
+
+
+@media only screen and(max-width:688) {
+    .products{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        
+        
+    }
+}
